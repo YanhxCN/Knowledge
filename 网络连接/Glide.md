@@ -3,11 +3,6 @@
 ### 依赖
 
 ```
-repositories {
-  google()
-  jcenter()
-}
-
 dependencies {
   implementation 'com.github.bumptech.glide:glide:4.11.0'
   annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
@@ -216,7 +211,7 @@ public <Z> ViewTarget<ImageView, Z> buildTarget(
 
 ViewTarget，它集成自BaseTarget，相当于是Glide处理完结果的回调，负责处理最后的结果，并且带有生命周期。
 
-![](C:\Users\lings\Knowledge\c98d91c05793490ea956feec7b738722.png)
+![](https://raw.githubusercontent.com/YanhxCN/Knowledge/main/c98d91c05793490ea956feec7b738722.png)
 
 Glide提供了各种各样的Target
 
