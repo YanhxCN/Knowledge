@@ -44,3 +44,20 @@
   >
   > 如果可组合函数需要数据，它应为相应的数据定义参数。然后，您可以将成本高昂的工作移至组成操作线程之外的其他线程，并使用 `mutableStateOf` 或 `LiveData` 将相应的数据传递给 Compose
 
+
+
+### 布局控件
+
+Column
+
+Row
+
+Box
+
+Material控件
+
+Card
+
+
+
+Arrangement.SpaceEvenly
